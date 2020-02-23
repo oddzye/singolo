@@ -21,7 +21,7 @@ a {
 
 
 .container {
-    max-width: 1022px;
+    max-width: 1020px;
     margin: auto;
 }
 
@@ -167,7 +167,7 @@ main.main::after {
 .services {
     position: relative;
     padding-top: 71px;
-    padding-bottom: 65px;
+    padding-bottom: 28px;
     background-color: #F2F2F2;
     margin-bottom: 8px;
 }
