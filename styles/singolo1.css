@@ -10,10 +10,10 @@ html {
 }
 
 body {
+    box-sizing: border-box;
     font-size: 1.6rem;
     letter-spacing: -0.5px;
     font-family: 'Lato', sans-serif;
-    box-sizing: border-box;
 }
 
 a {
@@ -34,10 +34,10 @@ a {
 }
 
 .header {
-    background-color: #2d303a;
-    color: #fff;
     position: relative;
     margin-bottom: 8px;
+    background-color: #2d303a;
+    color: #fff;
 }
 
 .header::after {
@@ -61,10 +61,10 @@ a {
 }
 
 h1 {
-    text-transform: uppercase;
+    position: relative;
     font-size: 24px;
     font-weight: 500;
-    position: relative;
+    text-transform: uppercase;
 }
 
 .logo {
@@ -72,18 +72,18 @@ h1 {
 }
 
 .logo .logo__text_colored {
-    color: #F06C64;
-    font-size: 24px;
     position: absolute;
     right: -9px;
     top: 9px;
+    font-size: 24px;
     line-height: 6px;
+    color: #F06C64;
 }
 
 .header__navigation {
+    max-width: 400px;
     margin-right: -27px;
     margin-top: 10px;
-    max-width: 400px;
 }
 
 .header__navigation ul.navigation {
@@ -126,8 +126,8 @@ main.main {
     position: relative;
     padding-top: 28px;
     padding-bottom: 36px;
-    background-color: #F06C64;
     margin-bottom: 8px;
+    background-color: #F06C64;
 }
 
 main.main::after {
@@ -173,8 +173,8 @@ main.main::after {
     position: relative;
     padding-top: 71px;
     padding-bottom: 28px;
-    background-color: #F2F2F2;
     margin-bottom: 8px;
+    background-color: #F2F2F2;
 }
 
 .services::after {
@@ -188,12 +188,12 @@ main.main::after {
     background-color: #fff;
 }
 
-.services .services__title{
+.services .services__title {
+    margin-bottom: 25px;
     font-weight: 700;
     font-size: 30px;
     line-height: 18px;
     color: #666D89;
-    margin-bottom: 25px;
 }
 
 .services .services__text {
@@ -201,8 +201,8 @@ main.main::after {
     text-align: justify;
     font-size: 18px;
     font-weight: 300;
-    color: #767E9E;
     line-height: 30px;
+    color: #767E9E;
 }
 
 .services__advantages {
@@ -218,25 +218,22 @@ main.main::after {
     align-items: flex-start;
 }
 
-.services__advantages .advantage img{
+.services__advantages .advantage img {
     margin-right: 18px;
 }
 
 .services__advantages .advantage .advantage__text h4 {
     margin-bottom: 10px;
-    color: #666D89;
     font-weight: 700;
     font-size: 18px;
     line-height: 18px;
+    color: #666D89;
 }
 
 .services__advantages .advantage .advantage__text p {
-    text-align: justify;
     margin-bottom: 10px;
-    color: #767E9E;
     font-size: 12px;
     line-height: 21px;
+    text-align: justify;
+    color: #767E9E;
 }
-
-
-
