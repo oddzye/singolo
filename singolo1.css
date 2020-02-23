@@ -98,6 +98,11 @@ h1 {
     background-color: #494E62;
 }
 
+.header__navigation ul.navigation li a:hover{
+    color: #F06C64;
+}
+
+
 .header__navigation ul.navigation li:first-of-type::before {
     display: none;
 }
