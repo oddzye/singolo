@@ -360,8 +360,12 @@ main.main::after {
     color: #767E9E;
 }
 
-.about-us__person .person__icons .icon:not(:last-child){
+.icons .icon:not(:last-child){
     margin-right: 5px;
+}
+
+.icons .icon:hover {
+    cursor: pointer;
 }
 
 .about-us::after {
@@ -375,3 +379,112 @@ main.main::after {
     background-color: #fff;
 }
 
+.contacts {
+    position: relative;
+    margin-bottom: 6px;
+    padding: 69px;
+    background-color: #F06C64;
+}
+
+.contacts::after {
+    content: '';
+    position: absolute;
+    bottom: -6px;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 6px;
+    background-color: #EA676B;
+}
+
+.contacts .section-title {
+    margin-bottom: 21px;
+    color: #F0D8D9;
+}
+
+.contacts__description {
+    margin-bottom: 53px;
+    font-size: 18px;
+    text-align: justify;
+    line-height: 30px;
+    color: #F0D8D9;
+}
+
+.contacts-content {
+    display: flex;
+    max-width: 100%;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.contacts-content .contacts-form {
+    max-width: 623px;
+}
+
+.form__input {
+    box-sizing: border-box;
+    border: none;
+    border-radius: 5px;
+    width: 98%;
+    padding: 9px 17px;
+    color: #F48C8F;
+    background-color: #D6564F;
+}
+
+.form__input::placeholder {
+    color: #F48C8F;
+    font-size: 12px;
+    line-height: 22px;
+}
+
+.form__input:not(:last-child) {
+    margin-bottom: 13px;
+}
+
+.contacts-info {
+    max-width: 300px;
+}
+
+.contacts-info__title {
+    margin-bottom: 13px;
+    font-weight: 700;
+    font-size: 17.7713px;
+    line-height: 18px;
+    color: #F0D8D9;
+}
+
+.contacts-info__description {
+    margin-bottom: 20px;
+}
+
+.info-data__text, .contacts-info__description {
+    font-size: 12px;
+    line-height: 22px;
+    color: #F0D8D9;
+}
+
+.info-data__wrap-icon {
+    display: inline-block;
+    width: 13px;
+}
+
+.footer {
+    padding: 22px 0;
+    background-color: #2D303A;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer__rights {
+    font-size: 12px;
+    line-height: 22px;
+    color: #666D89;
+}
+
+textarea {
+    resize: none;
+}
