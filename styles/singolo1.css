@@ -188,12 +188,15 @@ main.main::after {
     background-color: #fff;
 }
 
-.services .services__title {
+.services .section-title {
+    color: #666D89;
+}
+
+.section-title {
     margin-bottom: 25px;
     font-weight: 700;
     font-size: 30px;
     line-height: 18px;
-    color: #666D89;
 }
 
 .services .services__text {
@@ -235,4 +238,61 @@ main.main::after {
     line-height: 21px;
     text-align: justify;
     color: #767E9E;
+}
+
+.portfolio {
+    background-color: #2D303A;
+    padding: 70px 0;
+}
+
+.portfolio .section-title {
+    color: #666D89;
+}
+
+.portfolio__description {
+    margin-bottom: 7px;
+    text-align: justify;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 30px;
+    color: #767E9E;
+}
+
+.tabs__item {
+    padding: 1px 6px;
+    margin-bottom: 17px;
+    border: 1px solid #666D89;
+    border-radius: 5px;
+    outline: none;
+    color: #767E9E;
+    font-size: 12px;
+    line-height: 22px;
+    background-color: transparent;
+}
+
+.tabs__item:hover {
+    cursor: pointer;
+}
+
+.tabs__item:not(:last-child) {
+    margin-right: 9px;
+}
+
+.tabs__item_active {
+    border: 1px solid #C5C5C5;
+    color: #DEDEDE;
+}
+
+.portfolio-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.portfolio-grid__item {
+    max-width: 224px;
+    max-height: 190px;
+    object-fit: cover;
+    margin-bottom: 17px;
 }
