@@ -252,6 +252,11 @@ main.main::after {
     padding-bottom: 50px;
 }
 
+.portfolio__content {
+    max-height: 742px;
+    overflow: hidden;
+}
+
 .portfolio:after {
     content: '';
     position: absolute;
@@ -360,6 +365,9 @@ main.main::after {
     font-weight: 700;
     font-size: 17px;
     line-height: 18px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
     color: #666D89;
 }
 
@@ -446,6 +454,10 @@ main.main::after {
     color: #F48C8F;
     font-size: 12px;
     line-height: 22px;
+}
+
+.form__input:invalid {
+    background-color: #323746;
 }
 
 .form__input:not(:last-child) {
