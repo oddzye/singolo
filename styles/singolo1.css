@@ -16,6 +16,10 @@ body {
     font-family: 'Lato', sans-serif;
 }
 
+textarea {
+    resize: none;
+}
+
 a {
     outline: none;
     text-decoration: none;
@@ -172,7 +176,7 @@ main.main::after {
 .services {
     position: relative;
     padding-top: 71px;
-    padding-bottom: 28px;
+    padding-bottom: 32px;
     margin-bottom: 6px;
     background-color: #F2F2F2;
 }
@@ -244,7 +248,8 @@ main.main::after {
     position: relative;
     margin-bottom: 6px;
     background-color: #2D303A;
-    padding: 70px 0;
+    padding-top: 70px;
+    padding-bottom: 50px;
 }
 
 .portfolio:after {
@@ -258,12 +263,16 @@ main.main::after {
     background-color: #323746;
 }
 
-.portfolio .section-title {
+.portfolio__title {
+    margin-bottom: 25px;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 18px;
     color: #666D89;
 }
 
 .portfolio__description {
-    margin-bottom: 7px;
+    margin-bottom: 11px;
     text-align: justify;
     font-size: 18px;
     font-weight: 300;
@@ -272,7 +281,7 @@ main.main::after {
 }
 
 .tabs__item {
-    padding: 1px 6px;
+    padding: 0 8px;
     margin-bottom: 17px;
     border: 1px solid #666D89;
     border-radius: 5px;
@@ -288,7 +297,7 @@ main.main::after {
 }
 
 .tabs__item:not(:last-child) {
-    margin-right: 9px;
+    margin-right: 2px;
 }
 
 .tabs__item_active {
@@ -307,13 +316,14 @@ main.main::after {
     max-width: 224px;
     max-height: 190px;
     object-fit: cover;
-    margin-bottom: 17px;
+    margin-bottom: 20px;
 }
 
 .about-us {
     position: relative;
     margin-bottom: 6px;
-    padding: 70px 67px;
+    padding-top: 70px;
+    padding-bottom: 44px;
     background-color: #F2F2F2;
 }
 
@@ -322,7 +332,7 @@ main.main::after {
 }
 
 .about-us__description {
-    margin-bottom: 54px;
+    margin-bottom: 46px;
     text-align: justify;
     font-size: 18px;
     font-weight: 300;
@@ -342,11 +352,11 @@ main.main::after {
 }
 
 .about-us__person .person__photo {
-    margin-bottom: 17px;
+    margin-bottom: 12px;
 }
 
 .about-us__person .person__title {
-    margin-bottom: 13px;
+    margin-bottom: 9px;
     font-weight: 700;
     font-size: 17px;
     line-height: 18px;
@@ -354,14 +364,14 @@ main.main::after {
 }
 
 .about-us__person .person__description {
-    margin-bottom: 31px;
+    margin-bottom: 21px;
     font-size: 12px;
     line-height: 22px;
     color: #767E9E;
 }
 
 .icons .icon:not(:last-child){
-    margin-right: 5px;
+    margin-right: 3px;
 }
 
 .icons .icon:hover {
@@ -382,7 +392,8 @@ main.main::after {
 .contacts {
     position: relative;
     margin-bottom: 6px;
-    padding: 69px;
+    padding-top: 69px;
+    padding-bottom: 10px;
     background-color: #F06C64;
 }
 
@@ -398,12 +409,12 @@ main.main::after {
 }
 
 .contacts .section-title {
-    margin-bottom: 21px;
+    margin-bottom: 28px;
     color: #F0D8D9;
 }
 
 .contacts__description {
-    margin-bottom: 53px;
+    margin-bottom: 44px;
     font-size: 18px;
     text-align: justify;
     line-height: 30px;
@@ -425,8 +436,8 @@ main.main::after {
     box-sizing: border-box;
     border: none;
     border-radius: 5px;
-    width: 98%;
-    padding: 9px 17px;
+    width: 100%;
+    padding: 11px 15px;
     color: #F48C8F;
     background-color: #D6564F;
 }
@@ -438,7 +449,7 @@ main.main::after {
 }
 
 .form__input:not(:last-child) {
-    margin-bottom: 13px;
+    margin-bottom: 15px;
 }
 
 .contacts-info {
@@ -446,9 +457,9 @@ main.main::after {
 }
 
 .contacts-info__title {
-    margin-bottom: 13px;
+    margin-bottom: 10px;
     font-weight: 700;
-    font-size: 17.7713px;
+    font-size: 17px;
     line-height: 18px;
     color: #F0D8D9;
 }
@@ -466,6 +477,7 @@ main.main::after {
 .info-data__wrap-icon {
     display: inline-block;
     width: 13px;
+    margin-right: 3px;
 }
 
 .footer {
@@ -480,11 +492,7 @@ main.main::after {
 }
 
 .footer__rights {
-    font-size: 12px;
+    font-size: 13px;
     line-height: 22px;
     color: #666D89;
-}
-
-textarea {
-    resize: none;
 }
