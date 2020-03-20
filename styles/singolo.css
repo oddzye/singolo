@@ -38,10 +38,11 @@ a {
 }
 
 .header {
-    position: relative;
+    position: fixed;
     margin-bottom: 8px;
     background-color: #2d303a;
     color: #fff;
+    z-index: 10;
 }
 
 .header::after {
@@ -128,7 +129,7 @@ h1 {
 
 main.main {
     position: relative;
-    padding-top: 28px;
+    padding-top: 122px;
     padding-bottom: 36px;
     margin-bottom: 8px;
     background-color: #F06C64;
