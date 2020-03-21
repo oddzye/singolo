@@ -39,6 +39,7 @@ a {
 
 .header {
     position: fixed;
+    width: 100%;
     margin-bottom: 8px;
     background-color: #2d303a;
     color: #fff;
