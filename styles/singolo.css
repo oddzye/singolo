@@ -2,6 +2,7 @@
 
 html {
     font-size: 10px;
+    scroll-behavior: smooth;
 }
 
 * {
@@ -116,6 +117,10 @@ h1 {
 }
 
 .header__navigation ul.navigation li a:hover{
+    color: #F06C64;
+}
+
+.header__navigation ul.navigation li.active a{
     color: #F06C64;
 }
 
